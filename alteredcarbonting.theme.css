@@ -11,7 +11,6 @@
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 
 :root {
   --main-color: #2780e6;
@@ -25,9 +24,9 @@
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 100%;
+  --background-brightness: 200%;
   --background-contrast: 100%;
-  --background-saturation: 200%;
+  --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
@@ -67,8 +66,8 @@
   --offline-color: #808080;
   --main-font: gg sans;
   --code-font: Consolas;
-  --channels-width: 220px;
-  --members-width: 240px;
+  --channels-width: 180px;
+  --members-width: 180px;
   --backdrop-overlay: rgba(0,0,0,0.8);
   --backdrop-image: var(--background-image);
   --backdrop-position: var(--background-position);
@@ -98,8 +97,6 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
-  --HSL-server-icon-size: 45px;
-  --HSL-server-spacing: 10px;
 }
 
 /* Any custom CSS below here */
